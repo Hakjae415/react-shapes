@@ -107,7 +107,6 @@ const App = () => {
     )
 };
 
-// Additional components
 const Shapes1 = ({singleCircle, count, changeColor, color}) => {
     return (
             <div className="circle" idname={singleCircle.name}>
@@ -121,7 +120,6 @@ const Shapes1 = ({singleCircle, count, changeColor, color}) => {
     )
 };
 
-// Yay more components
 const Shapes2 = ({singleSquare, increase, changeColor, color}) => {
     return (
             <div className="square" idname={singleSquare.name}>
@@ -134,7 +132,6 @@ const Shapes2 = ({singleSquare, increase, changeColor, color}) => {
             </div>
     )
 };
-
 
 const root = ReactDOM.createRoot(container);
 root.render(<App/>);
